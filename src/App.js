@@ -1,6 +1,7 @@
 import React, { Component } from 'react'; 
 import './App.css';
 import ButtonOne from './Components/buttonOne/buttonOne';
+import EditForm from './Components/editForm/editForm';
 
 class App extends Component {
   constructor(props) {
@@ -13,9 +14,10 @@ class App extends Component {
     console.log(this.state.date);
     return (
       <div className="App">
-        <header className="App-header">
-          <ButtonOne></ButtonOne>
-        </header>
+        {<header className="App-header">
+          {/*  <ButtonOne gayboi="Izu"></ButtonOne> */}
+          <EditForm> </EditForm>
+        </header>}
       </div>
     );
   }

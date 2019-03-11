@@ -9,7 +9,16 @@
 }
 
 .App-header {
-  background-image: url('https://www.noupe.com/wp-content/uploads/2009/10/pattern-07.jpg');
+  /* Back ground image stuff*/
+  background-image: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/28056096_104494267044957_7582136636121554125_n.jpg?_nc_cat=101&_nc_ht=scontent-iad3-1.xx&oh=3d2e30d6c131182d410825b5f76f12df&oe=5D164EE8');
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
