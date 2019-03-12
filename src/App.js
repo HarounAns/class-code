@@ -1,7 +1,7 @@
 import React, { Component } from 'react'; 
 import './App.css';
 import ButtonOne from './Components/buttonOne/buttonOne';
-import EditForm from './Components/editForm/editForm';
+import FoamoForm from './Components/foamoForm/foamoForm';
 
 class App extends Component {
   constructor(props) {
@@ -16,7 +16,7 @@ class App extends Component {
       <div className="App">
         {<header className="App-header">
           {/*  <ButtonOne gayboi="Izu"></ButtonOne> */}
-          <EditForm> </EditForm>
+          <FoamoForm> </FoamoForm>
         </header>}
       </div>
     );

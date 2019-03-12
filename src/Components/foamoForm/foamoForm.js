@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './editForm.css';
+import './foamoForm.css';
 import axios from 'axios';
 
 class EditForm extends Component {
@@ -21,15 +21,7 @@ class EditForm extends Component {
         const message = this.state.value
         
         // TODO: implement API call with message
-        axios.post('https://foamochatapi.herokuapp.com/', {
-            text: message,
-        })
-        .then(function (response) {
-            alert('FOAMO Bot: ' + response.data.message);
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
+        alert('FOAMO Bot: ' + message);        
         
         // used to not overwrite the submit events value, dont worry about this
         event.preventDefault();
